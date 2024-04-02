@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+body {
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.75;
+}
+
+h1, .titreBillet {
+    color: #bb86fc;
+    font-weight: 300;
+}
+
+#global {
+    min-height: 100%;
+    background-color: #1e1e1e;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+#contenu {
+    margin-bottom: 40px;
+}
+
+#titreBlog, #piedBlog {
+    text-align: center;
+    background-color: #242424;
+    padding: 15px 0;
+    color: #ffffff;
+    border-bottom: 1px solid #333333;
+}
+
+#piedBlog {
+    border-top: 1px solid #333333;
+    border-bottom: none;
+}
+
+article {
+    border-bottom: 1px solid #333333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+time {
+    font-size: 0.85em;
+    color: #a7a7a7;
+}
+
+
+a:link, a:visited {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #dfdfdf;
+    text-decoration: underline;
+}
